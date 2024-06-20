@@ -6,7 +6,7 @@ Download Ubuntu from <a href="https://releases.ubuntu.com/jammy/ubuntu-22.04.4-d
 
 After installing VMWare, open it and select <b>Create a new Virtual Machine</b> 
 
-![create_a_new_virtual_machine](https://github.com/CPP-EVTOL/Autonomy/assets/10952997/b166ffce-78fc-4876-adf8-b7460d0ae42f)
+<img src="https://github.com/CPP-EVTOL/Autonomy/assets/10952997/b166ffce-78fc-4876-adf8-b7460d0ae42f" width="500">
 
 and select:
 <ul>
@@ -18,7 +18,7 @@ and select:
 Select the virtual machine's name from the left panal, and open the <b>Edit virtual machine settings</b> icon
 
 
-![edit_settings](https://github.com/CPP-EVTOL/Autonomy/assets/10952997/6106a8aa-f699-4d16-9b12-1b2a91ea1782)
+<img src="https://github.com/CPP-EVTOL/Autonomy/assets/10952997/6106a8aa-f699-4d16-9b12-1b2a91ea1782" width="500">
 
 Depending on your system, set the <b>Memory</b> (between 4GB and 16GB)and <b>Processors</b> (between 2 and 6 cores). 
 
@@ -28,11 +28,11 @@ Select <b>CD/DVD (SATA)</b> and choose <b>Use ISO image file:</b>. Select the Ub
 
  Selece <b>ok</b> and press the play button to start the virtual machine. When prompted, select <b>Try or Install Ubuntu</b>
  
-![install](https://github.com/CPP-EVTOL/Autonomy/assets/10952997/b94cffa7-71df-4c76-bd16-ec7c21634d52)
+<img src="https://github.com/CPP-EVTOL/Autonomy/assets/10952997/b94cffa7-71df-4c76-bd16-ec7c21634d52" width="500">
 
 Select <b>Install Ubuntu</b>
 
-![install_ubuntu](https://github.com/CPP-EVTOL/Autonomy/assets/10952997/221f1043-6b93-412e-aa8f-8d4800824ca2)
+<img src="https://github.com/CPP-EVTOL/Autonomy/assets/10952997/221f1043-6b93-412e-aa8f-8d4800824ca2" width="500">
 
 and select all default settings. Select <b>Install Now</b>. You will be prompted about partitions being formatted. Just select <b>continue</b>. 
 
