@@ -62,6 +62,8 @@ This will install all the dependencies needed for your specific Ubuntu version.
 Once that is complete, restart the machine with 
 <pre>sudo reboot</pre>
 Open a new terminal and run the commands
+
+For Ubuntu 22 only:
 <pre>echo "export SVGA_VGPU10=0" >> ~/.bashrc</pre>
 <pre>echo "export LIBGL_DRI3_DISABLE=1" >> ~/.bashrc</pre>
 This will downgrade the GL_VERSION from 3.3 to 2.1 since OpenGL 3.3 seems to have issues running Gazebo with Ubuntu22. This is NOT the case for Ubuntu20. 
