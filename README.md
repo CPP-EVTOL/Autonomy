@@ -49,3 +49,6 @@ Navigate to the Desktop with
 <pre>cd Desktop</pre>
 and clone the PX4 repository with 
 <pre>git clone https://github.com/PX4/PX4-Autopilot.git --recursive</pre>
+When the clone completes, type
+<pre>bash ./PX4-Autopilot/Tools/setup/ubuntu.sh</pre>
+This will install all the dependencies needed for your specific Ubuntu version
