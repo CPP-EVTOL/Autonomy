@@ -25,3 +25,16 @@ Depending on your system, set the <b>Memory</b> (between 4GB and 16GB)and <b>Pro
 Select <b>CD/DVD (SATA)</b> and choose <b>Use ISO image file:</b>. Select the Ubuntu iso image that was downloaded previously.
 
 ![iso_image](https://github.com/CPP-EVTOL/Autonomy/assets/10952997/962df41d-978a-44cc-8bae-dc8c9c7f8900)
+
+ Selece <b>ok</b> and press the play button to start the virtual machine. When prompted, select <b>Try or Install Ubuntu</b>
+ 
+![install](https://github.com/CPP-EVTOL/Autonomy/assets/10952997/b94cffa7-71df-4c76-bd16-ec7c21634d52)
+
+Select <b>Install Ubuntu</b>
+
+![install_ubuntu](https://github.com/CPP-EVTOL/Autonomy/assets/10952997/221f1043-6b93-412e-aa8f-8d4800824ca2)
+
+and select all default settings. Select <b>Install Now</b>. You will be prompted about partitions being formatted. Just select <b>continue</b>. 
+
+You will then be asked to create credentials. Set your name and password to anything you want. But I reccomend a 4 digit pin for the password as you will have to use it for <b>sudo</b> privileges later.
+
