@@ -87,7 +87,7 @@ and launch the application with
 Navigate to the <b>PX4-Autopilot</b> directory and run the command 
 
 For Ubuntu 20:
-<pre>make px4_sitl gazebo-classic</pre>
+<pre>make px4_sitl gazebo_standard_vtol</pre>
 
 For Ubuntu 22
 <pre>make px4_sitl gz_x500</pre>
