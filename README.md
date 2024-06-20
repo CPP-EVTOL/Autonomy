@@ -38,3 +38,14 @@ and select all default settings. Select <b>Install Now</b>. You will be prompted
 
 You will then be asked to create credentials. Set your name and password to anything you want. But I reccomend a 4 digit pin for the password as you will have to use it for <b>sudo</b> privileges later.
 
+When the installation is finished, select <b>Restart Now</b>, you should see a prompt say <i>Please remove the installation medium, then press ENTER</i>. Just press <b>ENTER</b>
+
+Once the virtual machine boots up, type 
+<pre>CRTL+ALT+t</pre>
+to open a new terminal. In the terminal install GIT with 
+<pre>sudo apt install git -y</pre>
+when prompted for <b>sudo</b> privileges feed it your password and press <b>ENTER</b>
+Navigate to the Desktop with
+<pre>cd Desktop</pre>
+and clone the PX4 repository with 
+<pre>git clone https://github.com/PX4/PX4-Autopilot.git --recursive</pre>
