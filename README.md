@@ -85,6 +85,11 @@ and launch the application with
 <img src="https://github.com/CPP-EVTOL/Autonomy/assets/10952997/4e8e8e5b-1db4-47f5-a71e-3fe7e75cfa39" width="500">
 
 Navigate to the <b>PX4-Autopilot</b> directory and run the command 
+
+For Ubuntu 20:
+<pre>make px4_sitl gazebo-classic</pre>
+
+For Ubuntu 22
 <pre>make px4_sitl gz_x500</pre>
 Gazebo should open and you should see a model appear
 
