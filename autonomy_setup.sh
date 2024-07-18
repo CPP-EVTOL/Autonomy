@@ -11,8 +11,8 @@ make px4_sitl
 
 cd ..
 
-echo export SVGA_VGPU10=0 && echo "export SVGA_VGPU10=0" >> ~/.bashrc
-echo export LIBGL_DRI3_DISABLE=1 echo "export LIBGL_DRI3_DISABLE=1" >> ~/.bashrc
+echo export SVGA_VGPU10=0 
+echo export LIBGL_DRI3_DISABLE=1 echo 
 
 wget https://github.com/mavlink/MAVSDK/releases/download/v1.4.16/libmavsdk-dev_1.4.16_ubuntu20.04_amd64.deb
 sudo dpkg -i libmavsdk-dev_1.4.16_ubuntu20.04_amd64.deb 
