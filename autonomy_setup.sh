@@ -14,7 +14,6 @@ echo "export LIBGL_DRI3_DISABLE=1" >> ~/.bashrc
 wget https://github.com/mavlink/MAVSDK/releases/download/v1.4.16/libmavsdk-dev_1.4.16_ubuntu20.04_amd64.deb
 sudo dpkg -i libmavsdk-dev_1.4.16_ubuntu20.04_amd64.deb -y
 
-echo -e "\n"
 
 git clone https://github.com/mavlink/MAVSDK.git --recursive
 git submodule update --init --recursive
@@ -22,6 +21,8 @@ cd MAVSDK/
 cmake -DCMAKE_BUILD_TYPE=Debug -Bbuild/default -H.
 cmake --build build/default -j8
 sudo cmake --build build/default --target install
+
+echo -e "\n"
 
 apt update && sudo apt install locales
 locale-gen en_US en_US.UTF-8
