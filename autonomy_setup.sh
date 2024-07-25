@@ -72,4 +72,5 @@ source /opt/ros/humble/setup.bash
 colcon build
 source install/local_setup.bash
 
-source /opt/ros/humble/setup.bash && echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+source /opt/ros/humble/setup.bash 
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
