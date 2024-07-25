@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/Desktop
+sudo cd ~/Desktop
 
 sudo apt update -y
 sudo apt upgrade -y
@@ -18,10 +18,10 @@ sudo make px4_sitl
 
 cd ..
 
-export SVGA_VGPU10=0 
-export LIBGL_DRI3_DISABLE=1 echo 
-echo "export SVGA_VGPU10=0" >> ~/.bashrc
-echo "export LIBGL_DRI3_DISABLE=1" >> ~/.bashrc
+#export SVGA_VGPU10=0 
+#export LIBGL_DRI3_DISABLE=1 echo 
+#echo "export SVGA_VGPU10=0" >> ~/.bashrc
+#echo "export LIBGL_DRI3_DISABLE=1" >> ~/.bashrc
 
 
 wget https://github.com/mavlink/MAVSDK/releases/download/v1.4.16/libmavsdk-dev_1.4.16_ubuntu20.04_amd64.deb
@@ -61,7 +61,7 @@ sudo make
 sudo make install
 sudo ldconfig /usr/local/lib/
 
-cd ~/Desktop/
+sudo cd ~/Desktop/
 
 mkdir -p ~/ws_sensor_combined/src/
 cd ~/ws_sensor_combined/src/
