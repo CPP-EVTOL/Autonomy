@@ -35,8 +35,6 @@ sudo cmake -DCMAKE_BUILD_TYPE=Debug -Bbuild/default -H.
 sudo cmake --build build/default -j8
 sudo cmake --build build/default --target install
 
-echo -e "\n"
-
 cd ..
 
 sudo apt update && sudo apt install locales
