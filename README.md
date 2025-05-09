@@ -1,4 +1,38 @@
 # Autonomy
+# Choose Your System
+[Windows and MacOS x86 Installation Instructions](#windows-and-macos-x86-installation) 
+- NOTE: MacOS with Intel chips has not been tested yet. I'm only assuming.
+
+[MacOS Silicon (M chips) Instructions](#macos-silicon-m-chips-installation)
+
+# MacOS Silicon (M chips) Installation
+## Virtual Environment Setup
+Start with this setup guide: 
+https://github.com/WickeyR/CPP-eVTOL-setup-Apple-Silicoln-Devices-
+
+## Install Gazebo 
+*Must have the PX4-Autopilot repo installed*
+
+Navigate to the <b>PX4-Autopilot</b> directory and run the command 
+
+For Ubuntu 20:
+<pre>make px4_sitl gazebo_standard_vtol</pre>
+
+For Ubuntu 22
+<pre>make px4_sitl gz_x500</pre>
+Gazebo should open and you should see a model appear
+
+<img src="https://github.com/CPP-EVTOL/Autonomy/assets/10952997/050c0606-05ed-428b-9dce-97c7688d0c17" width="500">
+
+You should also hear QGroundConttrol announce that it is ready to fly. Commands can be given from either the terminal running PX4-Autopilot, or from the QGroundControl interface. For example, if you run 
+
+<pre>commander takeoff</pre>
+
+you should see the UAV model start the motors in Gazebo and also see the altitude increase in QGroundControl. 
+
+
+
+# Windows and MacOS x86 Installation 
 ## Virtual Environment Setup
 Download and install VMWare from: <a href="https://livecsupomona-my.sharepoint.com/:u:/g/personal/rickramirez_cpp_edu/EauwsEtVC3ZIpcxP7PNTYyQBfk_FGKrOK8cS6195BIdhJQ?e=aO1hES">VMWare 17 Download</a>
 
