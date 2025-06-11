@@ -36,7 +36,7 @@ you should see the UAV model start the motors in Gazebo and also see the altitud
 ## Virtual Environment Setup
 Download and install VMWare from: <a href="https://livecsupomona-my.sharepoint.com/:u:/g/personal/rickramirez_cpp_edu/EauwsEtVC3ZIpcxP7PNTYyQBfk_FGKrOK8cS6195BIdhJQ?e=aO1hES">VMWare 17 Download</a>
 
-Download Ubuntu 22 from <a href="https://releases.ubuntu.com/jammy/ubuntu-22.04.4-desktop-amd64.iso">Ubuntu 22 Download</a>
+Download Ubuntu 22 from <a href="https://releases.ubuntu.com/jammy/ubuntu-22.04.5-desktop-amd64.iso">Ubuntu 22 Download</a>
 
 Download Ubuntu 20 from <a href="https://releases.ubuntu.com/focal/ubuntu-20.04.6-desktop-amd64.iso">Ubuntu 20 Download</a>
 
